@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <h2 class="logo">Pemrograman Web</h2>
+        <div class="user-info">
+            <img id="foto-user" alt="Foto profil">
+            <span id="nama-user"></span>
+            <button class="logout-btn" id="tombol-keluar">Keluar</button>
+        </div>
+    </header>
+
+    <main class="dashboard">
+        <h1 id="sapaan"></h1>
+        <p class="subjudul">Data di bawah ini diambil dari API.</p>
+
+        <h2>Daftar Produk</h2>
+        <p id="status">Memuat data...</p>
+        <div class="daftar-produk" id="daftar-produk"></div>
+    </main>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
