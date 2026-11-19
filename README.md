@@ -34,7 +34,7 @@ Proyek ini terdiri dari dua halaman utama:
 ## 📁 Struktur File
 
 ```
-trakhir/
+tugas/
 ├── index.html       # Halaman login
 ├── dashboard.html   # Halaman dashboard produk
 ├── style.css        # Styling untuk semua halaman
